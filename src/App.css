@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  color: #6a1b9a;
+  text-align: center;
+}
+
+.student-profile {
+  border: 2px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.student-profile h2 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: lightgray;
+}

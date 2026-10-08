@@ -2,27 +2,67 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+  background-color: #f5f3ff;
+}
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .header {
   color: #6a1b9a;
   text-align: center;
+  padding: 15px;
 }
 
 .student-profile {
-  border: 2px solid black;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 8px;
+  border: 2px solid #6a1b9a;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .student-profile h2 {
+  color: #6a1b9a;
   margin-top: 0;
+}
+
+.student-profile h3 {
+  color: #2e7d32;
+  margin-top: 25px;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 8px 8px 8px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #6a1b9a;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.reset-button {
+  background-color: #d32f2f;
+}
+
+.toggle-button {
+  display: block;
+  margin: 15px auto;
+  background-color: #1565c0;
 }
 
 footer {
   text-align: center;
   margin-top: 30px;
   padding: 15px;
-  background-color: lightgray;
+  background-color: #e1bee7;
+  border-radius: 5px;
 }
